@@ -1,24 +1,24 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: 'Audiobook library',
+  name: 'Библиотека аудиокниг',
   description:
-    'A small project to develop development skills',
+    'Небольшой проект для развития навыков разработки.',
   mainNav: [
     {
-      title: 'Main',
+      title: 'Главная',
       href: '/',
     },
     {
-      title: 'Books',
+      title: 'Книги',
       href: '/books',
     },
         {
-      title: 'Authors',
+      title: 'Авторы',
       href: '/authors',
     },
   ],
   links: {
-    github: 'https://github.com/qadez11/'
+    github: 'https://github.com/qadez11/audiobook-site'
   },
 };
