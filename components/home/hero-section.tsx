@@ -1,5 +1,3 @@
-import { siteConfig } from '@/config/site';
-import { Icons } from '../shared/icons';
 import GithubBanner from './github-banner';
 
 export default function HomeHeroSetion() {
