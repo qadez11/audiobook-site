@@ -3,10 +3,10 @@ import { Metadata, Viewport } from 'next';
 
 import { siteConfig } from '@/config/site';
 import { fontMono, fontSans } from '@/lib/fonts';
-import { ThemeProvider } from '@/components/theme-provider';
-import { SiteHeader } from '@/components/site-header';
-import { TailwindIndicator } from '@/components/tailwind-indicator';
-import { SiteFooter } from '@/components/site-footer';
+import { ThemeProvider } from '@/components/shared/theme-provider';
+import { SiteHeader } from '@/components/layout/site-header';
+import { TailwindIndicator } from '@/components/layout/tailwind-indicator';
+import { SiteFooter } from '@/components/layout/site-footer';
 
 export const metadata: Metadata = {
   title: {

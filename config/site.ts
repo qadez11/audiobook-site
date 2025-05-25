@@ -6,19 +6,12 @@ export const siteConfig = {
     'Небольшой проект для развития навыков разработки.',
   mainNav: [
     {
-      title: 'Главная',
-      href: '/',
-    },
-    {
-      title: 'Книги',
+      title: 'Главное',
       href: '/books',
-    },
-        {
-      title: 'Авторы',
-      href: '/authors',
-    },
+    }
   ],
   links: {
-    github: 'https://github.com/qadez11/audiobook-site'
+    githubProject: 'https://github.com/qadez11/audiobook-site',
+    githubProfile: 'https://github.com/qadez11'
   },
 };

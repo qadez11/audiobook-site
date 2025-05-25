@@ -8,7 +8,7 @@ export function SiteFooter() {
           <div className="text-balance text-center text-sm leading-loose text-muted-foreground md:text-left">
             Создано qadez11. Исходный код доступен на{" "}
             <a
-              href={siteConfig.links.github}
+              href={siteConfig.links.githubProject}
               target="_blank"
               rel="noreferrer"
               className="font-medium underline underline-offset-4"
