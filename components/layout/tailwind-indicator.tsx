@@ -2,7 +2,7 @@ export function TailwindIndicator() {
   if (process.env.NODE_ENV === 'production') return null;
 
   return (
-    <div className="fixed bottom-5 right-5 z-50 flex h-8 w-8 items-center justify-center rounded-xs bg-gray-800 p- font-mono text-xs text-white">
+    <div className="p- fixed right-5 bottom-5 z-50 flex h-8 w-8 items-center justify-center rounded-xs bg-gray-800 font-mono text-xs text-white">
       <div className="block sm:hidden">xs</div>
       <div className="hidden sm:block md:hidden">sm</div>
       <div className="hidden md:block lg:hidden">md</div>
