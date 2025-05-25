@@ -19,6 +19,6 @@ export const siteConfig = {
     },
   ],
   links: {
-    github: 'https://github.com/qadez11/'
+    github: 'https://github.com/qadez11/audiobook-site'
   },
 };
